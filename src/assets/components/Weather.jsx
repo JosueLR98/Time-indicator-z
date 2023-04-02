@@ -18,7 +18,7 @@ const Weather = ({ weather, temp }) => {
           </h3>
 
           <h2 className="mb-2 font-bold  text-[45px] ">
-            {isCelsius ? `${temp.celsius} ºC` : `${temp.fahrenheit} ºK`}
+            {isCelsius ? `${temp.celsius} ºC` : `${temp.fahrenheit} ºF`}
           </h2>
           <div>
             <img
